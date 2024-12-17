@@ -1,5 +1,4 @@
 # hkdLSTM
- Predict the HKD/USD exchange rate
 
 This project demonstrates how to use Long Short-Term Memory (LSTM) networks to predict future values in a time series dataset. The dataset is split into training and testing sets, and LSTM is used to build a predictive model that forecasts future values based on previous time steps.
 
@@ -48,6 +47,9 @@ python lstm.py
 	4.	Modify Parameters:
 	•	You can adjust the look_back variable to change the number of previous time steps used for predictions.
 	•	The epochs and batch_size can also be modified to control the training process.
+
+  	5.	Dataset
+   	•	hkd_exchange_rate.csv is a test dataset we generated. Users can also use GET_CSV.py to generate new datasets.
 
 Key Features
 	•	Data Normalization: The data is normalized using MinMaxScaler to scale the values between 0 and 1, improving the performance of the LSTM model.
