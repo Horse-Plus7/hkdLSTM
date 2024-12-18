@@ -1,4 +1,4 @@
-# hkdLSTM
+<img width="1371" alt="截屏2024-12-17 下午7 32 07" src="https://github.com/user-attachments/assets/abd1c1bc-88d8-407c-b5c7-5d1c41a6a48c" /># hkdLSTM
 
 This project demonstrates how to use Long Short-Term Memory (LSTM) networks to predict future values in a time series dataset. The dataset is split into training and testing sets, and LSTM is used to build a predictive model that forecasts future values based on previous time steps.
 
@@ -78,3 +78,5 @@ Troubleshooting
 	•	Empty Test Set Error: If you receive an error about an empty test set, check that the dataset is being split correctly and that there are enough samples in both the training and testing sets.
 	•	Model Training Warnings: If you encounter warnings like “Local rendezvous is aborting,” ensure that your training set is not too small and adjust the batch size or epochs accordingly.
 	•	Shape Mismatch: If the data reshaping causes issues, make sure your input data is in the correct format (a 2D array with shape (n_samples, 1) for the time series).
+ <img width="1371" alt="截屏2024-12-17 下午7 32 07" src="https://github.com/user-attachments/assets/c2f59634-3bfc-4685-af40-1c467c9a5d9c" />
+
